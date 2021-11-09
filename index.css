@@ -1,6 +1,32 @@
 body{
  margin:0;
+ text-align: center;
+ min-width: 914px;
 }
 svg{
-    background-color: silver;
+    /* background-color: silver; */
+}
+#tooltip{
+    visibility: hidden;
+    transition: all 0.2s;
+    position: absolute;
+    background: linear-gradient(to right , slateblue, rgb(157, 146, 228));
+    padding: 20px;
+    border-radius: 60px;
+    color: rgb(217, 211, 255);
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.233);
+}
+.decorator{
+    background: linear-gradient(to right , slateblue, rgb(157, 146, 228));
+    height: 120px;
+}
+main{
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.233);
+    border-radius: 40px;
+    overflow: hidden;
+}
+#legend{
+    padding-bottom: 60px;
 }
